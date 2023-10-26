@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ListeningReadingToggle: View {
     @Binding var isListeningMode: Bool
     

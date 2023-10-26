@@ -25,6 +25,7 @@
 		44A8E6C82AE995910058B765 /* ModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6C72AE995910058B765 /* ModeView.swift */; };
 		44A8E6CA2AEAA4F60058B765 /* AudiPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6C92AEAA4F60058B765 /* AudiPlayerViewModel.swift */; };
 		44A8E6CC2AEAA5720058B765 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6CB2AEAA5720058B765 /* AudioPlayerService.swift */; };
+		44A8E6CE2AEADEA30058B765 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6CD2AEADEA30058B765 /* ProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		44A8E6C72AE995910058B765 /* ModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeView.swift; sourceTree = "<group>"; };
 		44A8E6C92AEAA4F60058B765 /* AudiPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiPlayerViewModel.swift; sourceTree = "<group>"; };
 		44A8E6CB2AEAA5720058B765 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		44A8E6CD2AEADEA30058B765 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				44A8E6C72AE995910058B765 /* ModeView.swift */,
 				44A8E6C92AEAA4F60058B765 /* AudiPlayerViewModel.swift */,
 				44A8E6CB2AEAA5720058B765 /* AudioPlayerService.swift */,
+				44A8E6CD2AEADEA30058B765 /* ProductView.swift */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				44A8E6CA2AEAA4F60058B765 /* AudiPlayerViewModel.swift in Sources */,
 				44A8E6512AE943410058B765 /* ContentView.swift in Sources */,
 				44A8E64F2AE943410058B765 /* DemoAppApp.swift in Sources */,
+				44A8E6CE2AEADEA30058B765 /* ProductView.swift in Sources */,
 				44A8E6C82AE995910058B765 /* ModeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
