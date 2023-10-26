@@ -11,58 +11,16 @@
 		44A8E6512AE943410058B765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6502AE943410058B765 /* ContentView.swift */; };
 		44A8E6532AE943440058B765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6522AE943440058B765 /* Assets.xcassets */; };
 		44A8E6562AE943440058B765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6552AE943440058B765 /* Preview Assets.xcassets */; };
-		44A8E6922AE946D10058B765 /* dickens_oliver_twist_32_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E65D2AE9469C0058B765 /* dickens_oliver_twist_32_64kb.mp3 */; };
-		44A8E6932AE946D10058B765 /* dickens_oliver_twist_15_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E65E2AE9469C0058B765 /* dickens_oliver_twist_15_64kb.mp3 */; };
-		44A8E6942AE946D10058B765 /* dickens_oliver_twist_52_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E65F2AE9469D0058B765 /* dickens_oliver_twist_52_64kb.mp3 */; };
 		44A8E6952AE946D10058B765 /* dickens_oliver_twist_04_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6602AE9469E0058B765 /* dickens_oliver_twist_04_64kb.mp3 */; };
-		44A8E6962AE946D10058B765 /* dickens_oliver_twist_26_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6612AE9469F0058B765 /* dickens_oliver_twist_26_64kb.mp3 */; };
-		44A8E6972AE946D10058B765 /* dickens_oliver_twist_35_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6622AE9469F0058B765 /* dickens_oliver_twist_35_64kb.mp3 */; };
-		44A8E6982AE946D10058B765 /* dickens_oliver_twist_12_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6632AE946A00058B765 /* dickens_oliver_twist_12_64kb.mp3 */; };
-		44A8E6992AE946D10058B765 /* dickens_oliver_twist_43_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6642AE946A20058B765 /* dickens_oliver_twist_43_64kb.mp3 */; };
-		44A8E69A2AE946D10058B765 /* dickens_oliver_twist_45_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6652AE946A30058B765 /* dickens_oliver_twist_45_64kb.mp3 */; };
 		44A8E69B2AE946D10058B765 /* dickens_oliver_twist_02_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6662AE946A30058B765 /* dickens_oliver_twist_02_64kb.mp3 */; };
-		44A8E69C2AE946D10058B765 /* dickens_oliver_twist_24_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6672AE946A40058B765 /* dickens_oliver_twist_24_64kb.mp3 */; };
-		44A8E69D2AE946D10058B765 /* dickens_oliver_twist_16_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6682AE946A50058B765 /* dickens_oliver_twist_16_64kb.mp3 */; };
 		44A8E69E2AE946D10058B765 /* dickens_oliver_twist_01_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6692AE946A50058B765 /* dickens_oliver_twist_01_64kb.mp3 */; };
-		44A8E69F2AE946D10058B765 /* dickens_oliver_twist_13_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E66A2AE946A60058B765 /* dickens_oliver_twist_13_64kb.mp3 */; };
-		44A8E6A02AE946D10058B765 /* dickens_oliver_twist_46_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E66B2AE946A70058B765 /* dickens_oliver_twist_46_64kb.mp3 */; };
-		44A8E6A12AE946D10058B765 /* dickens_oliver_twist_37_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E66C2AE946A90058B765 /* dickens_oliver_twist_37_64kb.mp3 */; };
-		44A8E6A22AE946D10058B765 /* dickens_oliver_twist_53_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E66D2AE946A90058B765 /* dickens_oliver_twist_53_64kb.mp3 */; };
-		44A8E6A32AE946D10058B765 /* dickens_oliver_twist_30_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E66E2AE946AA0058B765 /* dickens_oliver_twist_30_64kb.mp3 */; };
-		44A8E6A42AE946D10058B765 /* dickens_oliver_twist_14_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E66F2AE946AC0058B765 /* dickens_oliver_twist_14_64kb.mp3 */; };
-		44A8E6A52AE946D10058B765 /* dickens_oliver_twist_40_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6702AE946AD0058B765 /* dickens_oliver_twist_40_64kb.mp3 */; };
-		44A8E6A62AE946D10058B765 /* dickens_oliver_twist_36_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6712AE946AE0058B765 /* dickens_oliver_twist_36_64kb.mp3 */; };
-		44A8E6A72AE946D10058B765 /* dickens_oliver_twist_31_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6722AE946AF0058B765 /* dickens_oliver_twist_31_64kb.mp3 */; };
-		44A8E6A82AE946D10058B765 /* dickens_oliver_twist_50_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6732AE946B10058B765 /* dickens_oliver_twist_50_64kb.mp3 */; };
-		44A8E6A92AE946D10058B765 /* dickens_oliver_twist_21_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6742AE946B10058B765 /* dickens_oliver_twist_21_64kb.mp3 */; };
-		44A8E6AA2AE946D10058B765 /* dickens_oliver_twist_29_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6752AE946B20058B765 /* dickens_oliver_twist_29_64kb.mp3 */; };
-		44A8E6AB2AE946D10058B765 /* dickens_oliver_twist_38_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6762AE946B20058B765 /* dickens_oliver_twist_38_64kb.mp3 */; };
 		44A8E6AC2AE946D10058B765 /* dickens_oliver_twist_07_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6772AE946B30058B765 /* dickens_oliver_twist_07_64kb.mp3 */; };
-		44A8E6AD2AE946D10058B765 /* dickens_oliver_twist_20_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6782AE946B40058B765 /* dickens_oliver_twist_20_64kb.mp3 */; };
 		44A8E6AE2AE946D10058B765 /* dickens_oliver_twist_11_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6792AE946B50058B765 /* dickens_oliver_twist_11_64kb.mp3 */; };
 		44A8E6AF2AE946D10058B765 /* dickens_oliver_twist_05_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E67A2AE946B70058B765 /* dickens_oliver_twist_05_64kb.mp3 */; };
 		44A8E6B02AE946D10058B765 /* dickens_oliver_twist_08_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E67B2AE946B70058B765 /* dickens_oliver_twist_08_64kb.mp3 */; };
-		44A8E6B12AE946D10058B765 /* dickens_oliver_twist_25_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E67C2AE946B80058B765 /* dickens_oliver_twist_25_64kb.mp3 */; };
-		44A8E6B22AE946D10058B765 /* dickens_oliver_twist_19_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E67D2AE946B90058B765 /* dickens_oliver_twist_19_64kb.mp3 */; };
-		44A8E6B32AE946D10058B765 /* dickens_oliver_twist_48_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E67E2AE946BA0058B765 /* dickens_oliver_twist_48_64kb.mp3 */; };
-		44A8E6B42AE946D10058B765 /* dickens_oliver_twist_51_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E67F2AE946BB0058B765 /* dickens_oliver_twist_51_64kb.mp3 */; };
 		44A8E6B52AE946D10058B765 /* dickens_oliver_twist_06_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6802AE946BD0058B765 /* dickens_oliver_twist_06_64kb.mp3 */; };
-		44A8E6B62AE946D10058B765 /* dickens_oliver_twist_23_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6812AE946BD0058B765 /* dickens_oliver_twist_23_64kb.mp3 */; };
-		44A8E6B72AE946D10058B765 /* dickens_oliver_twist_49_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6822AE946BF0058B765 /* dickens_oliver_twist_49_64kb.mp3 */; };
-		44A8E6B82AE946D10058B765 /* dickens_oliver_twist_44_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6832AE946C00058B765 /* dickens_oliver_twist_44_64kb.mp3 */; };
-		44A8E6B92AE946D10058B765 /* dickens_oliver_twist_41_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6842AE946C10058B765 /* dickens_oliver_twist_41_64kb.mp3 */; };
-		44A8E6BA2AE946D10058B765 /* dickens_oliver_twist_22_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6852AE946C20058B765 /* dickens_oliver_twist_22_64kb.mp3 */; };
-		44A8E6BB2AE946D10058B765 /* dickens_oliver_twist_34_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6862AE946C30058B765 /* dickens_oliver_twist_34_64kb.mp3 */; };
-		44A8E6BC2AE946D10058B765 /* dickens_oliver_twist_47_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6872AE946C40058B765 /* dickens_oliver_twist_47_64kb.mp3 */; };
-		44A8E6BD2AE946D10058B765 /* dickens_oliver_twist_17_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6882AE946C60058B765 /* dickens_oliver_twist_17_64kb.mp3 */; };
-		44A8E6BE2AE946D10058B765 /* dickens_oliver_twist_42_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6892AE946C70058B765 /* dickens_oliver_twist_42_64kb.mp3 */; };
-		44A8E6BF2AE946D10058B765 /* dickens_oliver_twist_18_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E68A2AE946C80058B765 /* dickens_oliver_twist_18_64kb.mp3 */; };
 		44A8E6C02AE946D10058B765 /* dickens_oliver_twist_10_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E68B2AE946C90058B765 /* dickens_oliver_twist_10_64kb.mp3 */; };
-		44A8E6C12AE946D10058B765 /* dickens_oliver_twist_27_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E68C2AE946CA0058B765 /* dickens_oliver_twist_27_64kb.mp3 */; };
 		44A8E6C22AE946D10058B765 /* dickens_oliver_twist_03_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E68D2AE946CB0058B765 /* dickens_oliver_twist_03_64kb.mp3 */; };
-		44A8E6C32AE946D10058B765 /* dickens_oliver_twist_39_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E68E2AE946CD0058B765 /* dickens_oliver_twist_39_64kb.mp3 */; };
-		44A8E6C42AE946D10058B765 /* dickens_oliver_twist_28_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E68F2AE946CE0058B765 /* dickens_oliver_twist_28_64kb.mp3 */; };
-		44A8E6C52AE946D10058B765 /* dickens_oliver_twist_33_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6902AE946D00058B765 /* dickens_oliver_twist_33_64kb.mp3 */; };
 		44A8E6C62AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6912AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 */; };
 		44A8E6C82AE995910058B765 /* ModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6C72AE995910058B765 /* ModeView.swift */; };
 /* End PBXBuildFile section */
@@ -73,58 +31,16 @@
 		44A8E6502AE943410058B765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44A8E6522AE943440058B765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44A8E6552AE943440058B765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		44A8E65D2AE9469C0058B765 /* dickens_oliver_twist_32_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_32_64kb.mp3; sourceTree = "<group>"; };
-		44A8E65E2AE9469C0058B765 /* dickens_oliver_twist_15_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_15_64kb.mp3; sourceTree = "<group>"; };
-		44A8E65F2AE9469D0058B765 /* dickens_oliver_twist_52_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_52_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6602AE9469E0058B765 /* dickens_oliver_twist_04_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_04_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6612AE9469F0058B765 /* dickens_oliver_twist_26_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_26_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6622AE9469F0058B765 /* dickens_oliver_twist_35_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_35_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6632AE946A00058B765 /* dickens_oliver_twist_12_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_12_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6642AE946A20058B765 /* dickens_oliver_twist_43_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_43_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6652AE946A30058B765 /* dickens_oliver_twist_45_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_45_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6662AE946A30058B765 /* dickens_oliver_twist_02_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_02_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6672AE946A40058B765 /* dickens_oliver_twist_24_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_24_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6682AE946A50058B765 /* dickens_oliver_twist_16_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_16_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6692AE946A50058B765 /* dickens_oliver_twist_01_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_01_64kb.mp3; sourceTree = "<group>"; };
-		44A8E66A2AE946A60058B765 /* dickens_oliver_twist_13_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_13_64kb.mp3; sourceTree = "<group>"; };
-		44A8E66B2AE946A70058B765 /* dickens_oliver_twist_46_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_46_64kb.mp3; sourceTree = "<group>"; };
-		44A8E66C2AE946A90058B765 /* dickens_oliver_twist_37_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_37_64kb.mp3; sourceTree = "<group>"; };
-		44A8E66D2AE946A90058B765 /* dickens_oliver_twist_53_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_53_64kb.mp3; sourceTree = "<group>"; };
-		44A8E66E2AE946AA0058B765 /* dickens_oliver_twist_30_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_30_64kb.mp3; sourceTree = "<group>"; };
-		44A8E66F2AE946AC0058B765 /* dickens_oliver_twist_14_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_14_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6702AE946AD0058B765 /* dickens_oliver_twist_40_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_40_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6712AE946AE0058B765 /* dickens_oliver_twist_36_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_36_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6722AE946AF0058B765 /* dickens_oliver_twist_31_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_31_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6732AE946B10058B765 /* dickens_oliver_twist_50_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_50_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6742AE946B10058B765 /* dickens_oliver_twist_21_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_21_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6752AE946B20058B765 /* dickens_oliver_twist_29_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_29_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6762AE946B20058B765 /* dickens_oliver_twist_38_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_38_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6772AE946B30058B765 /* dickens_oliver_twist_07_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_07_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6782AE946B40058B765 /* dickens_oliver_twist_20_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_20_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6792AE946B50058B765 /* dickens_oliver_twist_11_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_11_64kb.mp3; sourceTree = "<group>"; };
 		44A8E67A2AE946B70058B765 /* dickens_oliver_twist_05_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_05_64kb.mp3; sourceTree = "<group>"; };
 		44A8E67B2AE946B70058B765 /* dickens_oliver_twist_08_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_08_64kb.mp3; sourceTree = "<group>"; };
-		44A8E67C2AE946B80058B765 /* dickens_oliver_twist_25_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_25_64kb.mp3; sourceTree = "<group>"; };
-		44A8E67D2AE946B90058B765 /* dickens_oliver_twist_19_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_19_64kb.mp3; sourceTree = "<group>"; };
-		44A8E67E2AE946BA0058B765 /* dickens_oliver_twist_48_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_48_64kb.mp3; sourceTree = "<group>"; };
-		44A8E67F2AE946BB0058B765 /* dickens_oliver_twist_51_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_51_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6802AE946BD0058B765 /* dickens_oliver_twist_06_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_06_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6812AE946BD0058B765 /* dickens_oliver_twist_23_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_23_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6822AE946BF0058B765 /* dickens_oliver_twist_49_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_49_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6832AE946C00058B765 /* dickens_oliver_twist_44_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_44_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6842AE946C10058B765 /* dickens_oliver_twist_41_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_41_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6852AE946C20058B765 /* dickens_oliver_twist_22_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_22_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6862AE946C30058B765 /* dickens_oliver_twist_34_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_34_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6872AE946C40058B765 /* dickens_oliver_twist_47_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_47_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6882AE946C60058B765 /* dickens_oliver_twist_17_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_17_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6892AE946C70058B765 /* dickens_oliver_twist_42_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_42_64kb.mp3; sourceTree = "<group>"; };
-		44A8E68A2AE946C80058B765 /* dickens_oliver_twist_18_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_18_64kb.mp3; sourceTree = "<group>"; };
 		44A8E68B2AE946C90058B765 /* dickens_oliver_twist_10_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_10_64kb.mp3; sourceTree = "<group>"; };
-		44A8E68C2AE946CA0058B765 /* dickens_oliver_twist_27_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_27_64kb.mp3; sourceTree = "<group>"; };
 		44A8E68D2AE946CB0058B765 /* dickens_oliver_twist_03_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_03_64kb.mp3; sourceTree = "<group>"; };
-		44A8E68E2AE946CD0058B765 /* dickens_oliver_twist_39_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_39_64kb.mp3; sourceTree = "<group>"; };
-		44A8E68F2AE946CE0058B765 /* dickens_oliver_twist_28_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_28_64kb.mp3; sourceTree = "<group>"; };
-		44A8E6902AE946D00058B765 /* dickens_oliver_twist_33_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_33_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6912AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_09_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6C72AE995910058B765 /* ModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,48 +107,6 @@
 				44A8E6912AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 */,
 				44A8E68B2AE946C90058B765 /* dickens_oliver_twist_10_64kb.mp3 */,
 				44A8E6792AE946B50058B765 /* dickens_oliver_twist_11_64kb.mp3 */,
-				44A8E6632AE946A00058B765 /* dickens_oliver_twist_12_64kb.mp3 */,
-				44A8E66A2AE946A60058B765 /* dickens_oliver_twist_13_64kb.mp3 */,
-				44A8E66F2AE946AC0058B765 /* dickens_oliver_twist_14_64kb.mp3 */,
-				44A8E65E2AE9469C0058B765 /* dickens_oliver_twist_15_64kb.mp3 */,
-				44A8E6682AE946A50058B765 /* dickens_oliver_twist_16_64kb.mp3 */,
-				44A8E6882AE946C60058B765 /* dickens_oliver_twist_17_64kb.mp3 */,
-				44A8E68A2AE946C80058B765 /* dickens_oliver_twist_18_64kb.mp3 */,
-				44A8E67D2AE946B90058B765 /* dickens_oliver_twist_19_64kb.mp3 */,
-				44A8E6782AE946B40058B765 /* dickens_oliver_twist_20_64kb.mp3 */,
-				44A8E6742AE946B10058B765 /* dickens_oliver_twist_21_64kb.mp3 */,
-				44A8E6852AE946C20058B765 /* dickens_oliver_twist_22_64kb.mp3 */,
-				44A8E6812AE946BD0058B765 /* dickens_oliver_twist_23_64kb.mp3 */,
-				44A8E6672AE946A40058B765 /* dickens_oliver_twist_24_64kb.mp3 */,
-				44A8E67C2AE946B80058B765 /* dickens_oliver_twist_25_64kb.mp3 */,
-				44A8E6612AE9469F0058B765 /* dickens_oliver_twist_26_64kb.mp3 */,
-				44A8E68C2AE946CA0058B765 /* dickens_oliver_twist_27_64kb.mp3 */,
-				44A8E68F2AE946CE0058B765 /* dickens_oliver_twist_28_64kb.mp3 */,
-				44A8E6752AE946B20058B765 /* dickens_oliver_twist_29_64kb.mp3 */,
-				44A8E66E2AE946AA0058B765 /* dickens_oliver_twist_30_64kb.mp3 */,
-				44A8E6722AE946AF0058B765 /* dickens_oliver_twist_31_64kb.mp3 */,
-				44A8E65D2AE9469C0058B765 /* dickens_oliver_twist_32_64kb.mp3 */,
-				44A8E6902AE946D00058B765 /* dickens_oliver_twist_33_64kb.mp3 */,
-				44A8E6862AE946C30058B765 /* dickens_oliver_twist_34_64kb.mp3 */,
-				44A8E6622AE9469F0058B765 /* dickens_oliver_twist_35_64kb.mp3 */,
-				44A8E6712AE946AE0058B765 /* dickens_oliver_twist_36_64kb.mp3 */,
-				44A8E66C2AE946A90058B765 /* dickens_oliver_twist_37_64kb.mp3 */,
-				44A8E6762AE946B20058B765 /* dickens_oliver_twist_38_64kb.mp3 */,
-				44A8E68E2AE946CD0058B765 /* dickens_oliver_twist_39_64kb.mp3 */,
-				44A8E6702AE946AD0058B765 /* dickens_oliver_twist_40_64kb.mp3 */,
-				44A8E6842AE946C10058B765 /* dickens_oliver_twist_41_64kb.mp3 */,
-				44A8E6892AE946C70058B765 /* dickens_oliver_twist_42_64kb.mp3 */,
-				44A8E6642AE946A20058B765 /* dickens_oliver_twist_43_64kb.mp3 */,
-				44A8E6832AE946C00058B765 /* dickens_oliver_twist_44_64kb.mp3 */,
-				44A8E6652AE946A30058B765 /* dickens_oliver_twist_45_64kb.mp3 */,
-				44A8E66B2AE946A70058B765 /* dickens_oliver_twist_46_64kb.mp3 */,
-				44A8E6872AE946C40058B765 /* dickens_oliver_twist_47_64kb.mp3 */,
-				44A8E67E2AE946BA0058B765 /* dickens_oliver_twist_48_64kb.mp3 */,
-				44A8E6822AE946BF0058B765 /* dickens_oliver_twist_49_64kb.mp3 */,
-				44A8E6732AE946B10058B765 /* dickens_oliver_twist_50_64kb.mp3 */,
-				44A8E67F2AE946BB0058B765 /* dickens_oliver_twist_51_64kb.mp3 */,
-				44A8E65F2AE9469D0058B765 /* dickens_oliver_twist_52_64kb.mp3 */,
-				44A8E66D2AE946A90058B765 /* dickens_oliver_twist_53_64kb.mp3 */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -295,61 +169,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A8E69D2AE946D10058B765 /* dickens_oliver_twist_16_64kb.mp3 in Resources */,
 				44A8E6B02AE946D10058B765 /* dickens_oliver_twist_08_64kb.mp3 in Resources */,
-				44A8E6C52AE946D10058B765 /* dickens_oliver_twist_33_64kb.mp3 in Resources */,
 				44A8E6AC2AE946D10058B765 /* dickens_oliver_twist_07_64kb.mp3 in Resources */,
-				44A8E6932AE946D10058B765 /* dickens_oliver_twist_15_64kb.mp3 in Resources */,
-				44A8E6B42AE946D10058B765 /* dickens_oliver_twist_51_64kb.mp3 in Resources */,
-				44A8E6BC2AE946D10058B765 /* dickens_oliver_twist_47_64kb.mp3 in Resources */,
-				44A8E6A62AE946D10058B765 /* dickens_oliver_twist_36_64kb.mp3 in Resources */,
-				44A8E6A12AE946D10058B765 /* dickens_oliver_twist_37_64kb.mp3 in Resources */,
-				44A8E6B12AE946D10058B765 /* dickens_oliver_twist_25_64kb.mp3 in Resources */,
-				44A8E6BA2AE946D10058B765 /* dickens_oliver_twist_22_64kb.mp3 in Resources */,
 				44A8E69E2AE946D10058B765 /* dickens_oliver_twist_01_64kb.mp3 in Resources */,
-				44A8E6B22AE946D10058B765 /* dickens_oliver_twist_19_64kb.mp3 in Resources */,
 				44A8E6AF2AE946D10058B765 /* dickens_oliver_twist_05_64kb.mp3 in Resources */,
-				44A8E6A22AE946D10058B765 /* dickens_oliver_twist_53_64kb.mp3 in Resources */,
 				44A8E6C02AE946D10058B765 /* dickens_oliver_twist_10_64kb.mp3 in Resources */,
-				44A8E6B82AE946D10058B765 /* dickens_oliver_twist_44_64kb.mp3 in Resources */,
-				44A8E6C12AE946D10058B765 /* dickens_oliver_twist_27_64kb.mp3 in Resources */,
-				44A8E6A92AE946D10058B765 /* dickens_oliver_twist_21_64kb.mp3 in Resources */,
-				44A8E6A02AE946D10058B765 /* dickens_oliver_twist_46_64kb.mp3 in Resources */,
-				44A8E6922AE946D10058B765 /* dickens_oliver_twist_32_64kb.mp3 in Resources */,
-				44A8E69F2AE946D10058B765 /* dickens_oliver_twist_13_64kb.mp3 in Resources */,
 				44A8E6562AE943440058B765 /* Preview Assets.xcassets in Resources */,
-				44A8E6962AE946D10058B765 /* dickens_oliver_twist_26_64kb.mp3 in Resources */,
 				44A8E69B2AE946D10058B765 /* dickens_oliver_twist_02_64kb.mp3 in Resources */,
-				44A8E6A72AE946D10058B765 /* dickens_oliver_twist_31_64kb.mp3 in Resources */,
 				44A8E6B52AE946D10058B765 /* dickens_oliver_twist_06_64kb.mp3 in Resources */,
-				44A8E6AB2AE946D10058B765 /* dickens_oliver_twist_38_64kb.mp3 in Resources */,
-				44A8E6972AE946D10058B765 /* dickens_oliver_twist_35_64kb.mp3 in Resources */,
-				44A8E6B92AE946D10058B765 /* dickens_oliver_twist_41_64kb.mp3 in Resources */,
-				44A8E6BE2AE946D10058B765 /* dickens_oliver_twist_42_64kb.mp3 in Resources */,
 				44A8E6C62AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 in Resources */,
-				44A8E6BB2AE946D10058B765 /* dickens_oliver_twist_34_64kb.mp3 in Resources */,
-				44A8E6A82AE946D10058B765 /* dickens_oliver_twist_50_64kb.mp3 in Resources */,
-				44A8E69A2AE946D10058B765 /* dickens_oliver_twist_45_64kb.mp3 in Resources */,
-				44A8E6982AE946D10058B765 /* dickens_oliver_twist_12_64kb.mp3 in Resources */,
-				44A8E6A32AE946D10058B765 /* dickens_oliver_twist_30_64kb.mp3 in Resources */,
-				44A8E6AA2AE946D10058B765 /* dickens_oliver_twist_29_64kb.mp3 in Resources */,
-				44A8E6C32AE946D10058B765 /* dickens_oliver_twist_39_64kb.mp3 in Resources */,
-				44A8E69C2AE946D10058B765 /* dickens_oliver_twist_24_64kb.mp3 in Resources */,
-				44A8E6B62AE946D10058B765 /* dickens_oliver_twist_23_64kb.mp3 in Resources */,
-				44A8E6B72AE946D10058B765 /* dickens_oliver_twist_49_64kb.mp3 in Resources */,
-				44A8E6992AE946D10058B765 /* dickens_oliver_twist_43_64kb.mp3 in Resources */,
-				44A8E6942AE946D10058B765 /* dickens_oliver_twist_52_64kb.mp3 in Resources */,
 				44A8E6AE2AE946D10058B765 /* dickens_oliver_twist_11_64kb.mp3 in Resources */,
 				44A8E6952AE946D10058B765 /* dickens_oliver_twist_04_64kb.mp3 in Resources */,
 				44A8E6C22AE946D10058B765 /* dickens_oliver_twist_03_64kb.mp3 in Resources */,
-				44A8E6AD2AE946D10058B765 /* dickens_oliver_twist_20_64kb.mp3 in Resources */,
-				44A8E6B32AE946D10058B765 /* dickens_oliver_twist_48_64kb.mp3 in Resources */,
-				44A8E6BD2AE946D10058B765 /* dickens_oliver_twist_17_64kb.mp3 in Resources */,
 				44A8E6532AE943440058B765 /* Assets.xcassets in Resources */,
-				44A8E6A52AE946D10058B765 /* dickens_oliver_twist_40_64kb.mp3 in Resources */,
-				44A8E6BF2AE946D10058B765 /* dickens_oliver_twist_18_64kb.mp3 in Resources */,
-				44A8E6C42AE946D10058B765 /* dickens_oliver_twist_28_64kb.mp3 in Resources */,
-				44A8E6A42AE946D10058B765 /* dickens_oliver_twist_14_64kb.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

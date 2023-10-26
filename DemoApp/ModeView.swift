@@ -11,7 +11,7 @@ import SwiftUI
 
 struct ListeningReadingToggle: View {
     @Binding var isListeningMode: Bool
-
+    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
@@ -22,7 +22,7 @@ struct ListeningReadingToggle: View {
                         .stroke(Color.gray.opacity(0.3), lineWidth: 1)
                 )
             
-            HStack {
+            HStack(spacing: 18) {
                 ZStack {
                     Circle()
                         .frame(width: 40, height: 36)
@@ -36,9 +36,6 @@ struct ListeningReadingToggle: View {
                 .onTapGesture {
                     isListeningMode = true
                 }
-                
-//                Spacer()
-                
                 
                 ZStack {
                     Circle()
