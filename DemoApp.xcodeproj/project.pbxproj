@@ -23,6 +23,8 @@
 		44A8E6C22AE946D10058B765 /* dickens_oliver_twist_03_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E68D2AE946CB0058B765 /* dickens_oliver_twist_03_64kb.mp3 */; };
 		44A8E6C62AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A8E6912AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 */; };
 		44A8E6C82AE995910058B765 /* ModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6C72AE995910058B765 /* ModeView.swift */; };
+		44A8E6CA2AEAA4F60058B765 /* AudiPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6C92AEAA4F60058B765 /* AudiPlayerViewModel.swift */; };
+		44A8E6CC2AEAA5720058B765 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8E6CB2AEAA5720058B765 /* AudioPlayerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		44A8E68D2AE946CB0058B765 /* dickens_oliver_twist_03_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_03_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6912AE946D10058B765 /* dickens_oliver_twist_09_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickens_oliver_twist_09_64kb.mp3; sourceTree = "<group>"; };
 		44A8E6C72AE995910058B765 /* ModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeView.swift; sourceTree = "<group>"; };
+		44A8E6C92AEAA4F60058B765 /* AudiPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiPlayerViewModel.swift; sourceTree = "<group>"; };
+		44A8E6CB2AEAA5720058B765 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				44A8E6522AE943440058B765 /* Assets.xcassets */,
 				44A8E6542AE943440058B765 /* Preview Content */,
 				44A8E6C72AE995910058B765 /* ModeView.swift */,
+				44A8E6C92AEAA4F60058B765 /* AudiPlayerViewModel.swift */,
+				44A8E6CB2AEAA5720058B765 /* AudioPlayerService.swift */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A8E6CC2AEAA5720058B765 /* AudioPlayerService.swift in Sources */,
+				44A8E6CA2AEAA4F60058B765 /* AudiPlayerViewModel.swift in Sources */,
 				44A8E6512AE943410058B765 /* ContentView.swift in Sources */,
 				44A8E64F2AE943410058B765 /* DemoAppApp.swift in Sources */,
 				44A8E6C82AE995910058B765 /* ModeView.swift in Sources */,
