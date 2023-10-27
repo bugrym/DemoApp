@@ -24,20 +24,22 @@ public class AudioPlayerService: ObservableObject {
     }
     
     func loadAudio() {
-        if currentSongIndex >= 0 && currentSongIndex < mp3Files.count {
-            let mp3FileName = mp3Files[currentSongIndex]
-            if let mp3URL = Bundle.main.url(forResource: mp3FileName, withExtension: "mp3") {
-                player = AVPlayer(url: mp3URL)
-                player?.rate = Float(playbackSpeed)
-                player?.addPeriodicTimeObserver(forInterval: CMTime(seconds: 1, preferredTimescale: 1), queue: .main) { time in
-                    if !self.isEditingSlider {
-                        self.currentTime = time.seconds
-                    }
-                    self.duration = self.player?.currentItem?.asset.duration.seconds ?? 0
-                }
-                playAudio()
-            }
+        guard currentTime >= 0 && currentSongIndex < mp3Files.count else {
+            return
         }
+        let mp3FileName = mp3Files[currentSongIndex]
+        guard let mp3URL = Bundle.main.url(forResource: mp3FileName, withExtension: "mp3") else {
+            return
+        }
+        player = AVPlayer(url: mp3URL)
+        player?.rate = Float(playbackSpeed)
+        player?.addPeriodicTimeObserver(forInterval: CMTime(seconds: 1, preferredTimescale: 1), queue: .main) { time in
+            if !self.isEditingSlider {
+                self.currentTime = time.seconds
+            }
+            self.duration = self.player?.currentItem?.asset.duration.seconds ?? 0
+        }
+        playAudio()
     }
     
     private var isEditingSlider = false
