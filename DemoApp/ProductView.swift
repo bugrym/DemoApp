@@ -7,6 +7,22 @@
 
 import SwiftUI
 
+struct ProductViewModifier: ViewModifier {
+    
+    @Binding var isPresented: Bool
+    
+    func body(content: Content) -> some View {
+        ZStack {
+            content
+            
+            if isPresented {
+                ProductView(isPresented: $isPresented)
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+    }
+}
+
 struct ProductView: View {
     @Binding var isPresented: Bool
     
@@ -26,7 +42,9 @@ struct ProductView: View {
                     .multilineTextAlignment(.center)
                 
                 Button(action: {
-                    isPresented = false
+                    withAnimation {
+                        isPresented = false
+                    }
                     // Show in-app purchase view (you can implement this part)
                     // Call your StoreKit functionality here
                 }) {
@@ -40,14 +58,11 @@ struct ProductView: View {
                     
                 }
             }
-            .padding()
-            .background(
-                LinearGradient(gradient: Gradient(colors: [.white, .red]),
-                               startPoint: .top,
-                               endPoint: .bottom)
-                .opacity(1)
-            )
         }
+        .padding()
+        .background(LinearGradient(colors: [.clear, .white.opacity(0.5), .white, .red],
+                                   startPoint: .top,
+                                   endPoint: .bottom))
     }
 }
 

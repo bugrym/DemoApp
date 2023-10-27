@@ -10,7 +10,7 @@ import AVFoundation
 
 struct ContentView: View {
     @StateObject private var viewModel = AudioPlayerViewModel()
-    @State private var presentProductView = true // думаю, нема сенсу привласнювати на onAppear те що можна одразу засетити
+    @State private var presentProductView = true
     
     var body: some View {
         ZStack {
@@ -29,7 +29,7 @@ struct ContentView: View {
                     .foregroundStyle(.gray)
                     .padding(.bottom)
                 
-                if let player = viewModel.audioPlayerService.player {
+                if viewModel.audioPlayerService.player != nil {
                     HStack {
                         Text(viewModel.audioPlayerService.formatTime(viewModel.audioPlayerService.currentTime))
                             .font(.footnote)
@@ -89,9 +89,7 @@ struct ContentView: View {
                 }
             }
         }
-        .fullScreenCover(isPresented: $presentProductView) {
-            ProductView(isPresented: $presentProductView)
-        }
+        .modifier(ProductViewModifier(isPresented: $presentProductView))
     }
 }
 
