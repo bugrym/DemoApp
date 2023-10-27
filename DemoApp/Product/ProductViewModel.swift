@@ -50,7 +50,7 @@ class ProductViewModel: ObservableObject {
         case let .success(.verified(transaction)):
             await transaction.finish()
             await self.updatePurchasedProducts()
-        case .pending, .userCancelled: 
+        case .success(.unverified(_, _)), .pending, .userCancelled:
             break
         @unknown default:
             break

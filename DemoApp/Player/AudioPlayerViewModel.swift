@@ -48,7 +48,7 @@ public class AudioPlayerViewModel: ObservableObject {
             }
             self.duration = self.player?.currentItem?.asset.duration.seconds ?? 0
         }
-//        playAudio()
+        player?.pause()
     }
     
     private var isEditingSlider = false
@@ -85,12 +85,14 @@ public class AudioPlayerViewModel: ObservableObject {
         currentSongIndex = max(0, currentSongIndex - 1)
         player?.replaceCurrentItem(with: nil)
         loadAudio()
+        playAudio()
     }
     
     func nextSong() {
         currentSongIndex = min(mp3Files.count - 1, currentSongIndex + 1)
         player?.replaceCurrentItem(with: nil)
         loadAudio()
+        playAudio()
     }
     
     func togglePlaybackSpeed() {
