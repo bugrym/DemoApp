@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ProductView: View {
+    @Binding var isPresented: Bool
     @State private var isShowingOverlay = true
 
     var body: some View {
@@ -29,6 +30,7 @@ struct ProductView: View {
                         
                         
                         Button(action: {
+                            isPresented = false
                             // Show in-app purchase view (you can implement this part)
                             // Call your StoreKit functionality here
                         }) {
@@ -56,5 +58,5 @@ struct ProductView: View {
 }
 
 #Preview {
-    ProductView()
+    ProductView(isPresented: Binding(get: { return true }, set: { _ in }))
 }
