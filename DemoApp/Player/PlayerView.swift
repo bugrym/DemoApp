@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PlayerView.swift
 //  DemoApp
 //
 //  Created by vbugrym on 25.10.2023.
@@ -8,9 +8,9 @@
 import SwiftUI
 import AVFoundation
 
-struct ContentView: View {
+struct PlayerView: View {
     @StateObject private var viewModel = AudioPlayerViewModel()
-    @State private var presentProductView = false
+    @State private var presentProductView = true
     
     var body: some View {
         ZStack {
@@ -29,28 +29,28 @@ struct ContentView: View {
                     .foregroundStyle(.gray)
                     .padding(.bottom)
                 
-                if let player = viewModel.audioPlayerService.player {
+                if $viewModel.player != nil {
                     HStack {
-                        Text(viewModel.audioPlayerService.formatTime(viewModel.audioPlayerService.currentTime))
+                        Text(viewModel.formatTime(viewModel.currentTime))
                             .font(.footnote)
                             .foregroundStyle(.gray.opacity(0.8))
                         
-                        Slider(value: $viewModel.audioPlayerService.currentTime,
-                               in: 0...viewModel.audioPlayerService.duration,
+                        Slider(value: $viewModel.currentTime,
+                               in: 0...viewModel.duration,
                                onEditingChanged: viewModel.sliderEditingChanged)
                         .accentColor(.blue)
                         .frame(height: 5)
                         .background(Color.gray.opacity(0.1))
                         .cornerRadius(5)
                         
-                        Text(viewModel.audioPlayerService.formatTime(viewModel.audioPlayerService.duration))
+                        Text(viewModel.formatTime(viewModel.duration))
                             .font(.footnote)
                             .foregroundStyle(.gray.opacity(0.8))
                     }
                     .padding()
                     
                     Button(action: viewModel.togglePlaybackSpeed) {
-                        Text("Speed x\(viewModel.audioPlayerService.playbackSpeed, specifier: "%.1f")")
+                        Text("Speed x\(viewModel.playbackSpeed, specifier: "%.1f")")
                     }
                     .buttonStyle(.bordered)
                     .foregroundStyle(.black)
@@ -67,7 +67,7 @@ struct ContentView: View {
                             
                         }
                         Button(action: viewModel.togglePlayPause) {
-                            Image(systemName: viewModel.audioPlayerService.isPlaying ? "pause.fill" : "play.fill")
+                            Image(systemName: viewModel.isPlaying ? "pause.fill" : "play.fill")
                             
                         }
                         Button(action: viewModel.rewindForward) {
@@ -84,21 +84,13 @@ struct ContentView: View {
                     .foregroundColor(.black)
                     
                     ModeView()
-                    
-                    
                 }
             }
-            
-            if presentProductView {
-                ProductView()
-            }
         }
-        .onAppear {
-            presentProductView = true
-        }
+        .modifier(ProductViewModifier(isPresented: $presentProductView))
     }
 }
 
 #Preview {
-    ContentView()
+    PlayerView()
 }
